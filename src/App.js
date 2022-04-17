@@ -4,7 +4,7 @@ function Movie({ name, picture }) {
   return(
     <div>
       <h2>I like {name} </h2>
-      <img src={picture} alt={name}/>
+      <img src={picture} />
     </div>
   );
 }
